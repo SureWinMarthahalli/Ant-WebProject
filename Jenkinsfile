@@ -35,8 +35,8 @@ try{
     '''
    mail bcc: '', body: body_msg, cc: '', from: '', replyTo: '', subject: 'Job Success', to: 'devopstraining@gmail.com'
    
-    }
-  }*/
+    }*/
+  }
 }catch(error){
    echo 'Some error' 
    throw error
