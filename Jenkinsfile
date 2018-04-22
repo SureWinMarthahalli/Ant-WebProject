@@ -26,7 +26,7 @@ try{
         echo 'Deployed to prod'
     }
     
-    stage('Email'){
+    /*stage('Email'){
      body_msg = ''' Jenkins Job success 
    
     '''+"$JOB_URL"+''' 
@@ -36,7 +36,7 @@ try{
    mail bcc: '', body: body_msg, cc: '', from: '', replyTo: '', subject: 'Job Success', to: 'devopstraining@gmail.com'
    
     }
-  }
+  }*/
 }catch(error){
    echo 'Some error' 
    throw error
